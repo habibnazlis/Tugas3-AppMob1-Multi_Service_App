@@ -46,7 +46,7 @@ public class RSAwalBros extends ListActivity {
 
             } else if (pilihan.equals("Info On Google")){
                 a = new Intent(Intent.ACTION_WEB_SEARCH);
-                a.putExtra(SearchManager.QUERY, "Rumah Sakit Awal Bros");
+                a.putExtra(SearchManager.QUERY, "Rumah Sakit Awal Bross");
 
             }
             startActivity(a);
